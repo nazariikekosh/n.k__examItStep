@@ -1,9 +1,11 @@
 .header {
    font-family: 'EB Garamond', serif;
+   margin-bottom: 10px;
 
    &__logo {
       p {
-         font-size: 20px;
+         font-size: 24px;
+         white-space: nowrap;
       }
    }
 
@@ -26,6 +28,8 @@
    }
 
    &__icon {
+      justify-content: space-around;
+
       ul {
          display: flex;
 
