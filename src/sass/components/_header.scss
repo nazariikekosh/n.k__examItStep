@@ -17,6 +17,10 @@
 
          li {
             margin-right: 20px;
+            :hover {
+               color: grey;
+               transition: 1s;
+            }
 
             a {
                white-space: nowrap;
@@ -28,19 +32,24 @@
    }
 
    &__icon {
-      justify-content: space-around;
+      justify-content: end;
 
       ul {
          display: flex;
 
          li {
             list-style: none;
+            :hover{
+               transform: scale(1.5);
+               transition: 1.5s;
+            }
 
             a {
                margin-right: 20px;
 
                img {
                   width: 25px;
+                  
                }
             }
          }
