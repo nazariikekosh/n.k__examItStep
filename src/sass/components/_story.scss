@@ -1,0 +1,26 @@
+.story{
+   display: flex;
+
+   font-family: 'EB Garamond', serif;
+   &__line{
+      border-top: 1px solid rgb(192, 192, 192);
+      max-width: 98%;
+      margin: 0 auto;
+   }
+   &__title{
+      margin-bottom: 20px;
+      h2{
+         font-size: 36px;
+      }
+   }
+   &__subtitle{
+      p{
+         font-size: 16px;
+         margin-bottom: 20px;
+      }
+   }
+   img{
+      width: 100%;
+      height: 100%;
+   }
+}
