@@ -3,9 +3,16 @@ $var1: #000;
 .header {
    margin-top: 10px;
    font-family: Garamond;
-   a{text-decoration: none;}
+
+   a {
+      text-decoration: none;
+   }
 
    &__title {
+      :hover {
+         color: grey;
+      }
+
       a {
          font-size: 24px;
          font-weight: 700;
@@ -15,6 +22,7 @@ $var1: #000;
          white-space: nowrap;
          position: relative;
          z-index: 20;
+
       }
 
    }
@@ -28,10 +36,15 @@ $var1: #000;
          display: flex;
 
          li {
+            :hover {
+               color: grey;
+            }
+
             a {
                padding-left: 20px;
                color: $var1;
                white-space: nowrap;
+
             }
          }
       }
@@ -46,8 +59,11 @@ $var1: #000;
          display: flex;
 
          li {
+
+
             a {
                padding-left: 20px;
+               text-decoration: none;
             }
 
             img {
@@ -113,12 +129,7 @@ $var1: #000;
                   font-size: 24px;
                   font-weight: 700;
                   color: $var1;
-
-                  &:hover {
-                     color: rgb(66, 66, 66);
-                     text-decoration: underline;
-                     text-transform: uppercase;
-                  }
+                  text-decoration: none;
                }
             }
          }
@@ -136,8 +147,8 @@ $var1: #000;
             li {
                a {
                   img {
-                     width: 50px;
-                     height: 50px;
+                     width: 20px;
+                     height: 20px;
                   }
                }
 
