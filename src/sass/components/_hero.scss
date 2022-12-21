@@ -21,13 +21,22 @@
 
       h1 {
          font-size: 50px;
+         @media screen and(max-width:991px) {
+            font-size: 35px;
+         }
       }
    }
 
    &__subtitle {
+      @media screen and (max-width:767px) {
+         margin-bottom: 25px;
+      }
       &_big {
          margin-bottom: 20px;
          font-size: 20px;
+         @media screen and(max-width:991px) {
+            font-size: 14px;
+         }
       }
 
       &_small {
