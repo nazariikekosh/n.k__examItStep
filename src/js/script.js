@@ -1,9 +1,9 @@
 let slider = $(document).ready(function () {
-  $('.your-class').slick({
-    slidesToShow: 1,
+  $('.gallery__slide').slick({
+    slidesToShow: 3,
     slidesToScroll: 1,
     arrows: true,
-    dots: true,
+    dots: false,
     infinite: true
   });
 });
