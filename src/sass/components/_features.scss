@@ -28,6 +28,9 @@
          border-left: 1px solid rgba(172, 169, 169, 0.8);
          padding: 20px;
          text-align: center;
+         h4{
+            margin: 10px 0;
+         }
          @media screen and (max-width: 600px) {
             border-left: none;
          }
