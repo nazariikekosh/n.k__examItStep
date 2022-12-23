@@ -1,6 +1,6 @@
 .footer{
    font-family: "Garamond";
-   &__line{
+   &__line_top{
       margin: 30px 0;
       border-top: 1px solid rgb(192, 192, 192);
       max-width: 99%;
@@ -13,12 +13,29 @@
             list-style: none;
             a{
                img{
-                  border-radius: 50px solid;
-                  width:25%
+                  width:40px;
+                  border: 2px solid black;
+                  border-radius: 50%;
+                  padding: 10px;
+                  margin: 0 10px;
+                  &:hover{
+                     background-color: rgb(192, 192, 192);
+                  }
                   
                }
             }
          }
       }
+   }
+   &__untitled{
+      p{
+         text-align: center;
+            padding-top: 30px;
+      }
+   }
+   &__line_bottom{
+      margin: 30px 0;
+      border-top: 1px solid rgb(231, 231, 231);
+      max-width: 99%;
    }
 }
