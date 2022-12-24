@@ -60,7 +60,9 @@ $var1: #000;
          display: flex;
 
          li {
-
+            &:hover{
+               transform: scale(1.5);
+            }
 
             a {
                padding-left: 20px;
