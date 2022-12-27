@@ -68,8 +68,10 @@
    }
 
    &__text_area{
+      
       display: flex;
       .area{
+         width: 100%;
          flex: auto;
       }
    }
