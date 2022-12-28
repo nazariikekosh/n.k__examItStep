@@ -12,6 +12,7 @@ $var1: #000;
    &__title {
       :hover {
          color: grey;
+         transition: 0.5s;
       }
 
       a {
@@ -40,6 +41,8 @@ $var1: #000;
          li {
             :hover {
                color: grey;
+               transition: 0.5s;
+
                
             }
 
@@ -64,6 +67,7 @@ $var1: #000;
          li {
             &:hover{
                transform: scale(1.5);
+               transition: 1s;
             }
 
             a {
